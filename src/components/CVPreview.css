@@ -1,0 +1,189 @@
+
+
+.cv-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    width: 60%;
+    color: black;
+    background-color: whitesmoke;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+h3 {
+    text-decoration: underline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+}
+
+.general-info-output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 49, 82, 0.927);
+    color: whitesmoke;
+    width: 100%;
+    min-height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.general-info-data {
+    display: flex;
+    gap: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.general-info-icon {
+    height: 25px;
+    width: 25px;
+}
+
+.sub-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: #e0e0e1e1;
+    border-radius: 32px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.output-focus {
+    font-weight: bold;
+}
+
+.dates-output {
+    display: flex;
+    gap: 5px;
+}
+
+.dates-output-uni {
+    display: flex;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.dates-text {
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.dates-text-hyp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.education-studies{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    width: 90%;
+}
+
+.education-school {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.school-output {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 3rem;
+    height: 2rem;
+    align-items: center;
+}
+
+
+.education-uni {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.uni-output {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 3rem;
+    align-items: flex-start;
+    
+}
+
+.university-data {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.uni-text {
+    margin: 0;
+}
+
+.certificate-output-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certificate-text {
+    margin: 0;
+}
+
+.education-certificates {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.work-experience-output {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.work-output {
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+    align-items: flex-start;
+    padding: 20px 0 10px 0;
+    border-bottom: 1px dotted;
+}
+
+.work-experience-data {
+    display: flex;
+    min-width: 180px;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.work-description-data {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
