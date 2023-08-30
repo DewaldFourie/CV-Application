@@ -7,9 +7,7 @@ This is a CV generator App created to accept user inputs and transform them into
 - [@DewaldFourie](https://github.com/DewaldFourie)
 
 
-## Demo
-
-TBC
+## [Demo](cv-application-kohl-two.vercel.app)
 
 
 ## Features
